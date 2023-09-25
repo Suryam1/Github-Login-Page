@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to Github . Github</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Github_logo_svg.svg" type="image/svg">
+</head>
+<body>
+    <div class="flex bg-[rgb(13,17,23)] flex-col items-center h-screen">
+        <div>
+            <img src="Github_logo_svg.svg" alt="Logo" class="pt-6 pb-3 w-12 cursor-pointer">
+        </div>
+        <p class="text-white text-xl pt-6 pb-6">Sign in to Github</p>
+        <div class="border border-[#21262d] rounded-md text-white flex flex-col w-80 bg-[rgb(23,26,34)]">
+            <label for="Username" class="text-sm px-4 py-2">Username or email address</label>
+            <input type="text" id="Username" class="mx-4 my-2 bg-[rgb(13,17,23)] border border-[#21262d] rounded-sm">
+            <div class="flex justify-between">
+                <label for="Password" class="text-sm px-4 py-2">Password</label>
+                <p class="text-xs px-4 py-2 text-[rgb(47,126,240)] cursor-pointer">Forget password?</p>
+            </div>
+            <input type="password" name="Password" id="Password" class="mx-4 my-2 bg-[rgb(13,17,23)] border border-[#21262d] rounded-sm">
+            <button class="text-white bg-green-600 mx-4 my-2 rounded-md py-1 hover:bg-green-500">Sign in</button>
+        </div>
+        <div class="border border-[#30363d] rounded-md w-80 my-7">
+            <p class="text-[rgb(47,126,240)] text-center pt-2 pb-1 cursor-pointer hover:underline">Sign in with a passkey</p>
+            <p class="text-white text-center pb-2 pt-1">New to GitHub? <span class="text-[rgb(47,126,240)] cursor-pointer hover:underline">Create an account</span></p>
+        </div>
+        <div class="flex text-[rgb(47,126,240)] mt-20">
+            <p class="px-3 cursor-pointer hover:underline">Terms</p>
+            <p class="px-3 cursor-pointer hover:underline">Privacy</p>
+            <p class="px-3 cursor-pointer hover:underline">Docs</p>
+            <p class="text-white text-xs pt-1 hover:text-[rgb(47,126,240)] hover:underline">Contact GitHub Support</p>
+        </div>
+    </div>
+</body>
+</html>
